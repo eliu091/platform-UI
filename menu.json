@@ -1,0 +1,74 @@
+[
+    {
+        "name" : "Home",
+        "icon" : "fa-book",
+        "link" : "#home.html",
+        "children" : null
+    },
+    {
+        "name" : "Forms",
+        "icon" : "fa-edit",
+        "link" : "#",
+        "children" : [
+            {
+                "name" : "Advanced Elements",
+                "link" : "#form.html"
+            },
+            {
+                "name" : "Tab",
+                "link" : "#tab.html"
+            }
+        ]
+    },
+    {
+        "name" : "Tables",
+        "icon" : "fa-table",
+        "link" : "#",
+        "children" : [
+            {
+                "name" : "Data tables",
+                "link" : "#table.html"
+            }
+        ]
+    },
+    {
+        "name" : "Setting",
+        "icon" : "fa-gear",
+        "link" : "#",
+        "children" : [
+            {
+                "name" : "Level 2a",
+                "link" : "#2a"
+            },
+            {
+                "name" : "Level 2b",
+                "link" : "#",
+                "children" : [
+
+                    {
+                        "name" : "Level 3a",
+                        "link" : "#"
+                    },
+                    {
+                        "name" : "Level 3b",
+                        "link" : "#",
+                        "children" : [
+                        {
+                            "name" : "Level 4a",
+                            "link" : "#system-config.html"
+                        },
+                        {
+                            "name" : "Level 4b",
+                            "link" : "#",
+                            "children": [{                                
+                                "name" : "Level 5",
+                                "link" : "#system-config.html"                                
+                            }]
+                        }
+                    ]
+                    }
+                ]
+            }
+        ]
+    }
+]
